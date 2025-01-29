@@ -16,10 +16,17 @@
             background-color: #d32f2f;
             color: white;
             padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            flex-grow: 1;
+            text-align: center;
+            font-size: 30px;
         }
         .logo {
             max-width: 150px;
-            margin-bottom: 10px;
         }
         .container {
             margin: 20px;
@@ -61,8 +68,8 @@
 <body>
 
 <header>
-    <img src="logo.png" alt="Corner Pizza Logo" class="logo">
     <h1>🍕 Menu Corner Pizza 🍕</h1>
+    <img src="logo.png" alt="Corner Pizza Logo" class="logo">
 </header>
 
 <div class="container">
