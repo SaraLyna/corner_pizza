@@ -1,2 +1,10 @@
-# corner_pizza
-Site Corner Pizza américaine 🇺🇸🍕 🧀Pâte américaine&amp;ingrédients frais🍅🔥 🛵📞Livraison : 0549049332 📍retrouvez nous au @bistrotmoulinrouge cité somacob ( à côté de dhl) BEJAIA
+# Corner Pizza
+Site corner_pizza 
+Instagram : corner_pizza_
+
+## Fonctionnalités :
+- Présentation de la pizzeria 🇺🇸🍕
+- Infos sur la pâte et les ingrédients 🧀🍅🔥
+- Contact et livraison 📞🛵
+- Localisation 📍
+
