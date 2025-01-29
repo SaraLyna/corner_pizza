@@ -17,11 +17,18 @@
             color: white;
             padding: 20px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;  /* Centre le contenu horizontalement */
+            align-items: center;      /* Aligne verticalement les éléments */
         }
+        
+        h1 {
+            flex-grow: 1;  /* Le titre prend tout l'espace disponible */
+            text-align: center;  /* Centre le texte à l'intérieur du titre */
+        }
+        
         .logo {
             max-width: 150px;
+            margin-left: auto;  /* Pousse le logo à droite */
         }
         .container {
             margin: 20px;
