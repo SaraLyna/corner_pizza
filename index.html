@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corner Pizza</title>
+    <title>Corner Pizza - Pizzeria Américaine</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,7 +16,10 @@
             background-color: #d32f2f;
             color: white;
             padding: 20px;
-            font-size: 24px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 10px;
         }
         .container {
             margin: 20px;
@@ -34,6 +37,15 @@
         .map {
             margin-top: 20px;
         }
+        .instagram {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .instagram a {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: bold;
+        }
         footer {
             background-color: #d32f2f;
             color: white;
@@ -44,8 +56,13 @@
 </head>
 <body>
 
+<audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
 <header>
-    🍕 Corner Pizza - Pizzas Américaines us
+    <img src="logo.png" alt="Corner Pizza Logo" class="logo">
+    <h1>🍕 Corner Pizza 🇺🇸 - Pizzeria Américaine</h1>
 </header>
 
 <div class="container">
@@ -63,6 +80,10 @@
             src="https://www.google.com/maps?q=cité+somacob,+béjaïa&output=embed" allowfullscreen>
         </iframe>
     </div>
+
+    <div class="instagram">
+        📸 Suivez-nous sur Instagram : <a href="https://www.instagram.com/corner_pizza_/" target="_blank">@corner_pizza_</a>
+    </div>
 </div>
 
 <footer>
@@ -71,4 +92,3 @@
 
 </body>
 </html>
-
