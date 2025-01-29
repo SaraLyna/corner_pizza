@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corner Pizza - Pizzeria Américaine</title>
+    <title>Corner Pizza</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,10 +16,12 @@
             background-color: #d32f2f;
             color: white;
             padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .logo {
             max-width: 150px;
-            margin-bottom: 10px;
         }
         .container {
             margin: 20px;
@@ -57,20 +59,37 @@
         }
         .pizza-gallery {
             margin-top: 40px;
+            text-align: center;
         }
+        
         .pizza-gallery img {
-            width: 100%;
-            max-width: 300px;
+            width: 300px;  /* Fixer une largeur constante pour toutes les images */
+            height: 300px; /* Fixer une hauteur constante pour toutes les images */
+            object-fit: cover; /* Assurez-vous que les images remplissent l'espace sans déformer l'image */
             margin: 10px;
             border-radius: 10px;
+        }
+        .btn-menu {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+        .btn-menu:hover {
+            background-color: #d32f2f;
         }
     </style>
 </head>
 <body>
 
 <header>
+    <h1>🍕 Corner Pizza - Américaine us</h1>
     <img src="logo.png" alt="Corner Pizza Logo" class="logo">
-    <h1>🍕 Corner Pizza 🇺🇸 - Pizzeria Américaine</h1>
 </header>
 
 <audio autoplay loop>
@@ -79,25 +98,31 @@
 
 <div class="container">
     <h2>🧀 Pâte Américaine & Ingrédients Frais 🍅🔥</h2>
-    <p class="info">Savourez nos délicieuses pizzas faites maison avec une pâte épaisse et moelleuse, garnie d'ingrédients frais !</p>
+    <p class="info">Savourez nos délicieuses pizzas faites maison avec une pâte épaisse et moelleuse, garnie d'ingrédients frais provenant des meilleurs producteurs ! Que vous soyez amateur de pizza classique ou aventurier de nouvelles saveurs, nous avons ce qu'il vous faut.</p>
     
+    <h3>🍕 Un goût unique, une expérience incomparable !</h3>
+    <p class="info">Venez découvrir le secret de notre pâte maison qui fond dans la bouche, et laissez-vous envoûter par nos garnitures savamment choisies. Un véritable voyage culinaire vous attend à chaque bouchée !</p>
+
     <!-- Section des photos de pizzas -->
     <div class="pizza-gallery">
         <h2>🍕 Nos Pizzas</h2>
         <div>
-            <img src="pizza1.jpg" alt="Pizza 1">
-            <img src="pizza2.jpg" alt="Pizza 2">
-            <img src="pizza3.jpg" alt="Pizza 3">
+            <img src="pizza1.png" alt="Pizza 1">
+            <img src="pizza2.png" alt="Pizza 2">
+            <img src="pizza3.png" alt="Pizza 3">
+            <img src="pizza4.png" alt="Pizza 4">
+            <img src="pizza5.png" alt="Pizza 5">
+            <img src="pizza6.png" alt="Pizza 6">
             <!-- Ajoutez d'autres images ici -->
         </div>
     </div>
     
     <h2>📞 Commandez maintenant !</h2>
     <p class="contact">📲 0549 04 93 32</p>
-    
+
     <div class="menu">
         <h2>📜 Notre Menu</h2>
-        <a href="menu.html"><button>Voir le Menu</button></a>
+        <a href="menu.html" class="btn-menu">Voir le Menu</a>
     </div>
     
     <h2>📍 Retrouvez-nous ici :</h2>
@@ -113,9 +138,7 @@
         📸 Suivez-nous sur Instagram : <a href="https://www.instagram.com/corner_pizza_/" target="_blank">@corner_pizza_</a>
     </div>
     
-    
 
-    
 </div>
 
 <footer>
